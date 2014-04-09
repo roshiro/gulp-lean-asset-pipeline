@@ -1,0 +1,17 @@
+{
+  "name": "gulp-lean-asset-pipeline",
+  "version": "0.0.1",
+  "dependencies": {},
+  "devDependencies": {
+    "gulp": "~3.5.0",
+    "gulp-imagemin": "~0.1.4",
+    "gulp-clean": "~0.2.4",
+    "gulp-sass": "~0.7.1",
+    "gulp-uglify": "~0.2.1",
+    "gulp-coffee": "~1.4",
+    "gulp-concat": "~2.2.0"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  }
+}
