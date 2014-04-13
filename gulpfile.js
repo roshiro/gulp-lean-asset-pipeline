@@ -23,7 +23,7 @@ gulp.task('scripts', function() {
 
 gulp.task('styles', function () {
   return gulp.src(paths.styles)
-    .pipe(sass())
+    .pipe(sass({style: 'compressed'}))
     .pipe(concat('main.css'))
     .pipe(gulp.dest('dist/styles'));
 });
@@ -35,7 +35,7 @@ gulp.task('images', function() {
     .pipe(gulp.dest('dist/images'));
 });
 
-// Clean
+// Clean up the dist folder
 gulp.task('clean', function () {
   return gulp.src(['dist/styles', 'dist/scripts', 'dist/images'], { read: false }).pipe(clean());
 });
