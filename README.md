@@ -31,3 +31,11 @@ If you wish to run the default task and keep gulp watching for any changes in th
 ```
 $ gulp watch
 ```
+
+### More
+
+For more info, [read this](http://www.frontendjournal.com/how-to-build-an-asset-pipeline-with-gulpjs-for-any-webapp/).
+
+### Contribute
+
+Feel free to fork it and make pull requests.
